@@ -12,6 +12,14 @@ namespace ProductProject {
             return Product.GetPrice();  
         }
 
+        public string GetModelName() {
+            return Product.GetModelName();
+        }
+        public string GetStateName() {
+            return Product.GetStateName();
+        }
+
+
         public GoldWidget() {
             Product = new Product {
                 Code = "GW",

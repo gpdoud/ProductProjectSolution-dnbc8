@@ -12,6 +12,13 @@ namespace ProductProject {
             return Product.GetPrice();
         }
 
+        public string GetStateName() {
+            return Product.GetStateName();
+        }
+        public string GetModelName() {
+            return Product.GetModelName();
+        }
+
         public BronseWidget() {
             Product = new Product {
                 Code = "BW",
